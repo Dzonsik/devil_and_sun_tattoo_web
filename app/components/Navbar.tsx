@@ -5,26 +5,25 @@ import NavLink from "@/app/components/NavLink"
 import { usePathname } from "next/navigation"
 import DSLogoIcon from "@/app/favicon.ico"
 
-
 export default function Navbar() {
   const pathname = usePathname()
   return (
-    <header className="w-full bg-purple-900 text-orange-200 ">
+    <header className="w-full DS-bg-purple">
       <nav className="flex justify-between px-6 py-4 pr-2">
-        <ul className="flex items-center gap-1.5 text-orange-200">
+        <ul className="flex items-center gap-1.5">
           <Link href="/">
-            <div className="relative cursor-pointer text-orange-200">
+            <div className="relative cursor-pointer">
               {/* Desktop Logo */}
               <img
                 src={DSLogoIcon.src}
                 alt="PrintForge Logo"
-                className="w-[200px] h-auto hidden md:block text-orange-200"
+                className="w-[200px] h-auto hidden md:block"
               />
               {/* Mobile Logo */}
               <img
                 src={DSLogoIcon.src}
                 alt="PrintForge Logo"
-                className="w-10 h-auto block md:hidden text-orange-200"
+                className="w-10 h-auto block md:hidden"
               />
             </div>
           </Link>
