@@ -1,34 +1,34 @@
 @import "tailwindcss";
 
 /* Brand colors */
-DS-purple{
+.DS-purple{
   color: #4b2860;
 }
-DS-beige{
+.DS-beige{
   color: #f0cd96;
 }
-DS-yellow{
+.DS-yellow{
   color: #faae0a;
 }
-DS-red{
+.DS-red{
   color: #5d1107;
 }
-DS-red-light{
+.DS-red-light{
   color: #880011;
 }
-DS-bg-purple{
+.DS-bg-purple{
   background-color: #4b2860;
 }
-DS-bg-beige{
+.DS-bg-beige{
   background-color: #f0cd96;
 }
-DS-bg-yellow{
+.DS-bg-yellow{
   background-color: #faae0a;
 }
-DS-bg-red{
+.DS-bg-red{
   background-color: #5d1107;
 }
-DS-bg-red-light{
+.DS-bg-red-light{
   background-color: #880011;
 }
 

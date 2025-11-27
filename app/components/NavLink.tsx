@@ -6,7 +6,7 @@ export default function NavLink({ href, children, isActive }: NavLinkProps) {
     <li className="text-sm uppercase">
       <Link
         href={href}
-        className={`px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-accent ${isActive ? "text-orange-600" : "text-orange-200"}`}
+        className={`px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-accent ${isActive ? "DS-red-light" : "DS-beige"}`}
       >{children}</Link>
     </li>
   )

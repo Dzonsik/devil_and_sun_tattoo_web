@@ -25,9 +25,9 @@ export default function Navbar() {
                 alt="PrintForge Logo"
                 className="w-10 h-auto block md:hidden"
               />
+              Devil & Sun tattoo
             </div>
           </Link>
-          <NavLink href="/" isActive={pathname === "/"}>Devil & Sun tattoo</NavLink>
         </ul>
         <ul className="flex items-center gap-1.5" >
           <NavLink href="/portfolio" isActive={pathname === "/portfolio"}>Portfolio</NavLink>
